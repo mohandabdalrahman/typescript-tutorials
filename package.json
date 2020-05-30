@@ -1,0 +1,23 @@
+{
+  "name": "TypeScript_Tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev":"nodemon ./dist/app.js",
+    "start":"lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.13.5",
+    "lite-server": "^2.5.4",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
